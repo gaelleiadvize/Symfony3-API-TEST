@@ -1,0 +1,12 @@
+mapping:
+  class: AppBundle\Entity\Users
+  alias: Users
+  aliased_properties:
+    name: name
+  hide_properties: []
+  required_properties:
+    name: name
+  id_properties:
+    - id
+  urls:
+    self: get_user
